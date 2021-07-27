@@ -1,0 +1,58 @@
+.container {
+  @apply
+  rounded
+  border-2
+  shadow-md
+  p-2.5
+  bg-gray-50
+  focus:outline-none
+  h-full
+}
+
+.upper {
+  @apply
+  flex
+  text-2xl
+  font-bold
+  justify-between
+  items-center
+  flex-row
+  mt-8
+}
+
+.lower {
+  @apply
+  flex
+  justify-between
+  items-center
+  flex-row
+  mt-8
+}
+
+.item {
+  @apply
+  flex
+  flex-col
+
+}
+
+.img {
+  @apply
+  h-44
+  object-contain
+
+}
+
+.imgwrap {
+  @apply
+  flex
+  justify-center
+  bg-white
+  border-2
+
+}
+
+.container svg:hover {
+  @apply
+  fill-current text-gray-700
+}

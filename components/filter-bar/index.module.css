@@ -1,0 +1,6 @@
+.filterButton {
+  @apply
+  bg-auto
+  text-xl
+  text-white
+}

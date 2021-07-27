@@ -1,0 +1,28 @@
+.body {
+  @apply
+  font-mono
+  bg-fixed
+}
+
+.login {
+  @apply
+  font-mono
+  bg-indigo-50
+  h-screen
+  flex justify-center items-center flex-col
+
+
+}
+
+.register {
+  @apply
+  h-screen
+  flex justify-center items-center flex-col
+
+}
+
+.register input:focus {
+  @apply
+  focus:outline-none focus:ring-4
+}
+

@@ -1,0 +1,12 @@
+-- Up
+CREATE TABLE IF NOT EXISTS Carts (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    user_id INTEGER REFERENCES Users(id),
+    add_date DATE DEFAULT CURRENT_DATE,
+    status INTEGER DEFAULT 1
+);
+
+
+
+-- Down
+DROP TABLE Carts;

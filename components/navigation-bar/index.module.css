@@ -1,0 +1,6 @@
+.container svg:hover {
+  @apply
+  fill-current text-gray-200
+  relative
+
+}

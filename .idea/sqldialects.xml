@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/lib/migrations/01_category_migration.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/lib/migrations/02_users_migration.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/lib/migrations/03_products_migration.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/lib/migrations/05_cart_items_migration.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/lib/migrations/06_feedback_migration.sql" dialect="SQLite" />
+  </component>
+</project>
